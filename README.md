@@ -26,6 +26,7 @@ I wrote the following queries;
     CREATE database Capstone_Project
 
 -----IMPORT CSV FILES INTO DB----
+
 -----------IMPORT FILE [KMS Sql Case Study]-----
 
 -----Data type formatting-----
@@ -51,7 +52,7 @@ I wrote the following queries;
   	[Product Container] VARCHAR (100),
   	[Product Base Margin] DECIMAL (10, 2),
   	[Ship Date] DATE 
-   )
+       )
 
 Columns were NULL data was allowed
     
@@ -134,8 +135,11 @@ I wrote the following queries
     order by Sales desc
 
 -----From this information, the revenue from the bottom 10 customers is low as a result of the low unit price of the products supplied to them.
+
 -------it can be deduced that product sub-categories "Office Machines, copiers and fax", all in the technology category, has the highest sales according to top 5 statistics because of their unit prices.
+
 ------The company can scale up the revenue from these individuals by advertising and introducing more of the technology products to the low revenue customers.
+
 ------The company can also put a standard to the quantity of products ordered by customers (such as order lesser than a dozen quantity are not permitted) especially for customers that order products with low unit prices so as to scale up the Order quantity from these customers and avoid unwanted expenditure w.r.t. quantity ordered, during delivery that may incur loss.
 
 
@@ -209,6 +213,7 @@ I wrote the following queries
 -----Customers that returned items and the segments of items returned-----
  
 ------IMPORT CSV FILES INTO DB-----
+
 -----IMPORT Order_status----
 
     SELECT * from Order_status
@@ -240,6 +245,7 @@ I wrote the following queries
     order by Shipping_Cost asc
 
 ------Firstly, it appears more money was spent on delivery truck from the table above, as such, the company did not appropriately spend shipping costs considering the slow delivery of "Delivery truck". 
+
 ------Meanwhile based on the order priority, more shipping costs were incurred on critically high order priority according to the top 7 statistics. So with the slow delivery of "delivery truck", the company most likely did not use the best ship mode with respect to the order priority.
 
 
