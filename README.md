@@ -1,2 +1,8 @@
 # Kultra-Mega-Stores-Inventory-DSA-Capstone-Project-
-Kultra Mega Stores Inventory's project was carried out during the Digital Skill-Up Africa Data Analysis Beginner's class with Incubator Hub. This project entails analyzing and presenting key insights and findings from the sales data of a business that specialises in office supplies and furniture.
+
+### Project Overview 
+This project involves using Microsoft SQL server to analyze sales performance and customer base data of Kultra Mega Stores from 2009 to 2012. By analysing the various parameters in the data received, I present key insights and findings in different two case studies.  
+
+### Data Source
+The primary source of data used here is  and this is an open source data that can be freely downloaded from an open source online platform such as kaggle or FRED or any other data repository site.
+
