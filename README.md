@@ -1,7 +1,7 @@
 # Kultra-Mega-Stores-Inventory-DSA-Capstone-Project
 
 ### Project Overview 
-This project involves using Microsoft SQL server to analyze sales performance and customer base data of Kultra Mega Stores from 2009 to 2012. By analysing the various parameters in the data received, I present key insights and findings in different two case studies.  
+This project involves using Microsoft SQL server to analyze sales performance and customer base data of Kultra Mega Stores from 2009 to 2012. By analysing the various parameters in the data received, I present key insights and findings of different two case studies.  
 
 ### Data Source
 The primary source of data used here is KMS Sql Case Study.csv and Order_Status.csv.
